@@ -2,7 +2,7 @@
 
 # 🚀 Sobre Mim
 
-Olá! Sou o **Tiago Sampaio**, aluno de Engenharia de Informática na Universidade de Trás-os-Montes e Alto Douro e tem um gosto enorme pela programação tendo desenvolvido o banner por mim utilizado, em HTML e CSS, refletindo a minha paixão por transformar lógica em interfaces visuais funcionais.
+Olá! Sou o **Tiago Sampaio**, aluno de Engenharia de Informática na Universidade de Trás-os-Montes e Alto Douro que tem um gosto enorme pela programação tendo desenvolvido o banner por mim utilizado, em HTML e CSS, refletindo a minha paixão por transformar lógica em interfaces visuais funcionais.
 
 * 🎓 **Engenharia de Software**: Focado em algoritmos, arquitetura de sistemas e desenvolvimento robusto.
 * 💻 **Stack Tecnológica**: Especial interesse em linguagens de baixo nível (como C) e tecnologias Web modernas.
@@ -16,4 +16,4 @@ Olá! Sou o **Tiago Sampaio**, aluno de Engenharia de Informática na Universida
 | :--- | :--- |
 | **Linguagens** | `C`, `C++`,`Python`,`HTML5`, `CSS3`,`Java`,`JavaScript` |
 | **Ferramentas** | `Git`, `GitHub`, `VS Code`, `VS 2022`  |
-| **Sistemas** | `Linux`, `Windows Subsystem for Linux` |
+| **Sistemas** | `Linux`, `Windows` |
