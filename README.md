@@ -2,9 +2,9 @@
 
 # 🚀 Sobre Mim
 
-Olá! Sou o **Tiago Sampaio**, um entusiasta de Engenharia de Informática focado em criar soluções eficientes e código limpo. O banner acima não é apenas uma imagem; foi totalmente desenvolvido por mim utilizando HTML e CSS, refletindo a minha paixão por transformar lógica em interfaces visuais funcionais.
+Olá! Sou o **Tiago Sampaio**, aluno de Engenharia de Informática na Universidade de Trás-os-Montes e Alto Douro e tem um gosto enorme pela programação tendo desenvolvido o banner por mim utilizado, em HTML e CSS, refletindo a minha paixão por transformar lógica em interfaces visuais funcionais.
 
-* 🎓 **Estudante de Engenharia de Software**: Focado em algoritmos, arquitetura de sistemas e desenvolvimento robusto.
+* 🎓 **Engenharia de Software**: Focado em algoritmos, arquitetura de sistemas e desenvolvimento robusto.
 * 💻 **Stack Tecnológica**: Especial interesse em linguagens de baixo nível (como C) e tecnologias Web modernas.
 * ⚙️ **Filosofia**: Acredito que "Loading..." é apenas o estado temporário antes de uma solução inovadora.
 
@@ -14,15 +14,6 @@ Olá! Sou o **Tiago Sampaio**, um entusiasta de Engenharia de Informática focad
 
 | Categoria | Tecnologias |
 | :--- | :--- |
-| **Linguagens** | `C`, `C++`, `HTML5`, `CSS3`, `JavaScript` |
-| **Ferramentas** | `Git`, `GitHub`, `VS Code` |
+| **Linguagens** | `C`, `C++`,`Python`,`HTML5`, `CSS3`,`Java`,`JavaScript` |
+| **Ferramentas** | `Git`, `GitHub`, `VS Code`, `VS 2022`  |
 | **Sistemas** | `Linux`, `Windows Subsystem for Linux` |
-
----
-
-## 📊 Estatísticas do GitHub
-
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=TiagoSampaio_UTAD&show_icons=true&theme=radical" alt="GitHub Stats" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TiagoSampaio_UTAD&layout=compact&theme=radical" alt="Top Langs" height="150" />
-</p>
