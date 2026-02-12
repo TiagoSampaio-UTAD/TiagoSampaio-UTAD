@@ -1,19 +1,19 @@
 <img width="1758" height="597" alt="image" src="https://github.com/user-attachments/assets/10f7432f-f891-4108-98ce-67134e32db79" />
 
-# 🚀 Sobre Mim
+# 🚀 About Me
 
-Olá! Sou o **Tiago Sampaio**, aluno de Engenharia de Informática na Universidade de Trás-os-Montes e Alto Douro que tem um gosto enorme pela programação tendo desenvolvido o banner por mim utilizado, em HTML e CSS, refletindo a minha paixão por transformar lógica em interfaces visuais funcionais.
+Hello! I am **Tiago Sampaio**, a Software Engineering student at the University of Trás-os-Montes and Alto Douro (UTAD). I have a great passion for programming and even developed the banner I use myself, using HTML and CSS, reflecting my passion for transforming logic into functional visual interfaces.
 
-* 🎓 **Engenharia de Software**: Focado em algoritmos, arquitetura de sistemas e desenvolvimento robusto.
-* 💻 **Stack Tecnológica**: Especial interesse em linguagens de baixo nível (como C) e tecnologias Web modernas.
-* ⚙️ **Filosofia**: Acredito que "Loading..." é apenas o estado temporário antes de uma solução inovadora.
+* 🎓 **Software Engineering**: Focused on algorithms, system architecture, and robust development.
+* 💻 **Tech Stack**: Special interest in low-level languages (such as C) and modern Web technologies.
+* ⚙️ **Philosophy**: I believe that "Loading..." is just the temporary state before an innovative solution.
 
 ---
 
-## 🛠️ Tecnologias e Ferramentas
+## 🛠️ Technologies and Tools
 
-| Categoria | Tecnologias |
+| Category | Technologies |
 | :--- | :--- |
-| **Linguagens** | `C`, `C++`,`Python`,`HTML5`, `CSS3`,`Java`,`JavaScript` |
-| **Ferramentas** | `Git`, `GitHub`, `VS Code`, `VS 2022`  |
-| **Sistemas** | `Linux`, `Windows` |
+| **Languages** | `C`, `C++`, `Python`, `HTML5`, `CSS3`, `Java`, `JavaScript` |
+| **Tools** | `Git`, `GitHub`, `VS Code`, `VS 2022` |
+| **Systems** | `Linux`, `Windows` |
