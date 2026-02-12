@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>GitHub Banner - Tiago Sampaio</title>
+    <style>
+        :root {
+            --fundo-roxo: #6a0dad;
+            --janela-codigo: #1a1a1a;
+            --cor-loading: #ffb300; /* Âmbar/Laranja */
+            --c-include: #4db6ac;
+            --c-main: #ba68c8;
+            --c-keyword: #f06292;
+            --c-string: #ffd54f;
+            --c-text: #e0e0e0;
+        }
+
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #121212;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .banner {
+            width: 950px;
+            height: 350px;
+            background: var(--fundo-roxo);
+            border-radius: 30px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            padding: 0 40px;
+            overflow: hidden;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+        }
+
+        /* Círculos concêntricos de fundo */
+        .banner::before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 600px;
+            height: 600px;
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            box-shadow: 0 0 0 50px rgba(255,255,255,0.02), 0 0 0 100px rgba(255,255,255,0.02);
+            pointer-events: none;
+        }
+
+        /* Ícones Dispersos */
+        .icon-bg {
+            position: absolute;
+            color: rgba(255, 255, 255, 0.15);
+            font-size: 40px;
+            user-select: none;
+            pointer-events: none;
+        }
+
+        /* Foto de Perfil */
+        .profile-side {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            z-index: 10;
+        }
+
+        .photo {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        /* Botão Loading Estilizado */
+        .loading-btn {
+            margin-top: 20px;
+            background: rgba(255, 179, 0, 0.15);
+            color: var(--cor-loading);
+            padding: 10px 22px;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            border: 2px solid var(--cor-loading);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .spinner {
+            width: 16px;
+            height: 16px;
+            border: 3px solid rgba(255, 179, 0, 0.3);
+            border-top: 3px solid var(--cor-loading);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .status-btn {
+            margin-top: 20px;
+            background-color: var(--cor-botao);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 10px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+
+        /* Janela de Código */
+        .code-window {
+            width: 420px;
+            height: 240px;
+            background: var(--janela-codigo);
+            margin-left: 40px;
+            border-radius: 15px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.5);
+            padding: 15px;
+            z-index: 5;
+            font-family: 'Consolas', 'Monaco', monospace;
+            font-size: 15px;
+        }
+
+        .dots {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 20px;
+        }
+        .dot { width: 12px; height: 12px; border-radius: 50%; }
+        .red { background: #ff5f56; }
+        .yellow { background: #ffbd2e; }
+        .green { background: #27c93f; }
+
+        .code-line { margin: 4px 0; color: var(--c-text); }
+        .tab { margin-left: 20px; }
+
+        /* Infos à Direita */
+       .info-side {
+            flex-grow: 1;
+            text-align: right;
+            color: white;
+            z-index: 10;
+        }
+
+        .info-side h1 {
+            margin: 0;
+            font-size: 36px;
+            font-weight: 800;
+            letter-spacing: -1px;
+            white-space: nowrap;
+        }
+
+        .info-side p {
+            margin: 5px 0 0;
+            font-size: 18px;
+            opacity: 0.8;
+            margin-left: 70px;
+            text-align: center;
+            font-weight: 300;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="banner">
+        <div class="icon-bg" style="top: 10%; left: 15%;">⚙️</div>
+        <div class="icon-bg" style="bottom: 10%; left: 20%;">🔗</div>
+        <div class="icon-bg" style="top: 20%; right: 30%;">{/}</div>
+        <div class="icon-bg" style="bottom: 15%; right: 10%;">⚡</div>
+        <div class="icon-bg" style="top: 15%; right: 5%; font-size: 80px; opacity: 0.1;">C</div>
+
+        <div class="profile-side">
+            <img src="TS.png" alt="Tiago" class="photo">
+            <div class="loading-btn">
+                <div class="spinner"></div>
+                Loading...
+            </div>
+        </div>
+
+        <div class="code-window">
+            <div class="dots">
+                <div class="dot red"></div>
+                <div class="dot yellow"></div>
+                <div class="dot green"></div>
+            </div>
+            <div class="code-line"><span style="color: var(--c-include);">#include</span> <span style="color: var(--c-string);">&lt;stdio.h&gt;</span></div>
+            <br>
+            <div class="code-line"><span style="color: var(--c-main);">int</span> main() {</div>
+            <div class="code-line tab"><span style="color: var(--c-keyword);">char</span> name[] = <span style="color: var(--c-string);">"Tiago Sampaio"</span>;</div>
+            <div class="code-line tab"><span style="color: var(--c-include);">printf</span>(<span style="color: var(--c-string);">"Hello, GitHub!\\n"</span>);</div>
+            <div class="code-line tab"><span style="color: var(--c-main);">return</span> 0;</div>
+            <div class="code-line">}</div>
+        </div>
+
+        <div class="info-side">
+            <h1>Tiago Sampaio</h1>
+            <p>Software Engineering</p>
+        </div>
+    </div>
+
+</body>
+</html>
